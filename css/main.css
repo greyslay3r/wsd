@@ -2,3 +2,7 @@
 body {
 background: url("images/pebble_bg.jpg");
 }
+
+h1 {
+color: red;
+}
