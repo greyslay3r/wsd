@@ -1,6 +1,4 @@
-p {
-	color:red;
-}
 
-body {background: url("images/pebble_bg.jpg") repeat;
+body {
+background: url(images/pebble_bg.jpg);
 }
