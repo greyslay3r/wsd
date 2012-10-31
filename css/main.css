@@ -1,5 +1,10 @@
 
 body {
+width:800px;
+margin: 0 auto;
+}
+
+body {
 background-image: url("../images/bg_image.jpg");
 }
 
