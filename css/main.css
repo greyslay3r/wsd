@@ -1,6 +1,6 @@
 
 body {
-background-image: url("images/pebble_bg.jpg");
+background: url("images/pebble_bg.jpg") no-repeat;
 }
 
 h1 {
