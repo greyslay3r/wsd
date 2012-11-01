@@ -35,6 +35,7 @@ a:active {
 	background: green;
 	width: 150px;
 	color: green;
-	margin:10 auto;
+	margin:0 auto;
+	padding: 10px;
 	float: left;
 }
