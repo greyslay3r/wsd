@@ -1,14 +1,14 @@
-
 body {
 width:800px;
 margin:0 auto;
-}
-
-body {
+font-family: arial, sans-serif;
 background-image: url("../images/bg_image.jpg");
 }
 
-h1 {
+#title {
+	text-indent: -1000px;
+}
+h1,h2,h3,h4,h5,h6 {
 color: red;
 }
 
@@ -26,16 +26,61 @@ a:active {
 }
 
 #logo {
-	width: 400px;
-	border 5px solid #333;
+	border: 5px black;
 	float: left;
 }
 
 #index {
-	background: green;
-	width: 150px;
-	color: green;
-	margin:0 auto;
-	padding: 5px 5px 5px 70px;
 	float: left;
+	background: green;
+	width: 140px;
+	margin:0 auto;
+	height: 60px;
+	padding-left:7%;
+}
+#about {
+	float: left;
+	background: silver;
+	width: 180px;
+	height: 60px;
+	margin:0 auto;
+	padding-left:1em;
+}
+
+#side_shot {
+	float: left;
+	margin-top: 10px;
+	border-style: solid;
+	border_width: 10px;
+	border_color: black;
+}
+#splash {
+	padding-left: 520px;
+	margin-top: 92px;
+	background: white;
+}
+
+h2 {
+	text-shadow: 3px 3px 3px black;
+}
+
+#cta {
+	background: pink;
+}
+#features {
+	clear: left;
+	background: purple;
+}
+
+#review {
+	background: grey;	
+}
+
+#nav {
+	list-style-type: none;
+}
+
+
+ul {
+	list-style-type: circle;
 }
