@@ -34,5 +34,6 @@ a:active {
 #index {
 	width: 150px;
 	color: green;
+	margin:0 auto;
 	float: left;
 }
