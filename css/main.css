@@ -24,3 +24,8 @@ a:hover {
 a:active {
 	color:red;
 }
+
+img {
+	border 5px solid black;
+	float: left;
+}
