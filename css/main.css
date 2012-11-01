@@ -29,3 +29,8 @@ a:active {
 	border 5px solid black;
 	float: left;
 }
+
+#index {
+	color: green;
+	float: left;
+}
