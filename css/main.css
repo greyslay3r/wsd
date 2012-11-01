@@ -5,47 +5,48 @@ font-family: arial, sans-serif;
 background-image: url("../images/bg_image.jpg");
 }
 
-#title {
-	text-indent: -1000px;
-}
+
 h1,h2,h3,h4,h5,h6 {
 color: red;
 }
 
-a:link {
-	color:blue;
-}
-a:visited {
-	color:purple;
-}
-a:hover {
-	color:white;
-}
-a:active {
-	color:red;
-}
-
 #logo {
-	border: 5px black;
+	margin-top: 0;
+	float: left;
+}
+/*  ---  Nav Elements ---- */
+
+nav {
+	width: 400px
+	margin: 0 auto;
+	background: grey;
+	list-style-type: none;
+	padding: 0;
+	overflow: hidden;
+	}
+
+li {
+	list-style-type: none;
+	width: 200px;
+	background: green;
 	float: left;
 }
 
-#index {
-	float: left;
-	background: green;
-	width: 140px;
-	margin:0 auto;
+a {
+	text-decoration: none;
+	background: red;
+	display: block;
 	height: 60px;
-	padding-left:7%;
+	line-height: 60px;
+	text-align: center;
+	color: black;
 }
-#about {
-	float: left;
-	background: silver;
-	width: 180px;
-	height: 60px;
-	margin:0 auto;
-	padding-left:1em;
+
+a:hover {
+	color: red;
+	background: black;
 }
+/* -------------- */
 
 #side_shot {
 	float: left;
@@ -76,9 +77,6 @@ h2 {
 	background: grey;	
 }
 
-#nav {
-	list-style-type: none;
-}
 
 
 ul {
