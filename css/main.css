@@ -25,7 +25,7 @@ a:active {
 	color:red;
 }
 
-img {
+#logo {
 	border 5px solid black;
 	float: left;
 }
