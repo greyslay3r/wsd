@@ -9,7 +9,7 @@ background-image: url("../images/bg_image.jpg");
 	margin: 0;
 	float: left;
 }
-/*  ---  Nav Elements ---- */
+/*  ---  Top Nav Elements ---- */
 
 
 header nav ul li{
@@ -93,7 +93,6 @@ header nav ul li a:hover {
 	background: ##26d117;
 	}
    
-
 #features {
 	margin-top: 20px auto;
 	margin-bottom: 0;
