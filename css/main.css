@@ -62,8 +62,8 @@ header nav ul li a:hover {
 }
 
 #button {
-	font-size: 130%;
-	float: left;
+	font-size: 100%;
+	-moz-float: left;
 	margin-top: 10px;
 }
 
@@ -100,7 +100,7 @@ header nav ul li a:hover {
 #join {
 	text-align: center;
 	font-size: 150%; 
-	margin-top: 70px;
+	margin-top: 30px;
 	padding: 15px;
 }
 
@@ -181,18 +181,29 @@ footer {
 /* -Media Queries - =====================================*/
 
 /* tablet portrait size to standad 960 (device & browswers) */
-	@media screen and(min-width:768px)and(max-width:959px) {
+	@media screen and (min-width:768px) and (max-width:959px) {
 		#features {background-color:red;}
 }
 
 /* mobile landscape size to tablet portrait (device&browsers)*/
-	@media only screen and(min-width:480px)and(max-width:767px){
+	@media only screen and (min-width:480px) and (max-width:767px){
 		#features {background-color:blue;}
+		#button {font-size: 80%;}
+		#join {font-size: 100%;}
+
 }
 
 /*  mobile portrait size to mobile landscape size (device & browsers)*/
-	@media only screen and(max-width:479px) {
+	@media only screen and (max-width:479px) {
 		#features {background-color:pink;}
+		#side_shot {display:none;clear: both;}
+		#side_shot img {display:none;clear: both;}
+		#splash {padding-left: 0;}
+		#review {-moz-column-count: 1;}
+		body {clear:both; width: 90%;}
+		#button {margin-left: auto; margin-right: auto;}
+		
+		#images {width: 180px;}
 }
 
 
