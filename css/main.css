@@ -14,6 +14,11 @@ background-image: url("../images/bg_image.jpg");
 	max-width:100%;
 }
 
+section img {
+	max-width: 100%
+}
+
+
 /*  ---  Top Nav Elements ---- */
 
 
@@ -44,7 +49,7 @@ header nav ul li a:hover {
 	float: left;
 	margin-top: 0px;
 	border-style: solid;
-	border-width: 10px;
+	border-width:10px;
 	border-color: black;
 }
 
@@ -56,7 +61,7 @@ header nav ul li a:hover {
 	color: white;
 	height: 417px;
 	padding-top: 55px;
-	padding-left: 65%;
+	padding-left: 67%;
 	margin-top: 0px;
 	background: #630;
 }
@@ -101,7 +106,7 @@ header nav ul li a:hover {
 	text-align: center;
 	font-size: 150%; 
 	margin-top: 30px;
-	padding: 15px;
+	padding: 6%;
 }
 
    
@@ -147,11 +152,11 @@ h4 {
 	color: white;margin: auto;
 	text-align: center;
 	background: rgba(155,0,0,0.3);
-	width: 200px;
+	width: 25%;
 }
 
 #images {
-	width: 530px;
+	width: 66.25%;
 	background: rgba(155,0,0,0.3);
 	list-style-type: none;
 	margin: auto;
@@ -160,13 +165,13 @@ h4 {
 
 div ul li {
 	float: left;
-	margin-left: 20px;
+	margin-left: 3.275%;
 }
 
 #review {
 	color: white;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 1.25%;
+	padding-right: 1.25%;
 	-moz-column-count: 3;
 	-moz-column-gap: 25px;
 	clear: left;
@@ -182,27 +187,32 @@ footer {
 
 /* tablet portrait size to standad 960 (device & browswers) */
 	@media screen and (min-width:768px) and (max-width:959px) {
-		#features {background-color:red;}
+		#review {-moz-column-count: 2;}
+		#logo {width: 60%}
+		header nav ul li{width: 21%}
+
 }
 
 /* mobile landscape size to tablet portrait (device&browsers)*/
 	@media only screen and (min-width:480px) and (max-width:767px){
-		#features {background-color:blue;}
+		#review {-moz-column-count: 2;}
 		#button {font-size: 80%;}
 		#join {font-size: 100%;}
+		#logo {width: 60%}
+		header nav ul li{width: 21%}
 
 }
 
 /*  mobile portrait size to mobile landscape size (device & browsers)*/
 	@media only screen and (max-width:479px) {
-		#features {background-color:pink;}
+		#features {height: 80px;}
 		#side_shot {display:none;clear: both;}
 		#side_shot img {display:none;clear: both;}
 		#splash {padding-left: 0;}
 		#review {-moz-column-count: 1;}
 		body {clear:both; width: 90%;}
-		#button {margin-left: auto; margin-right: auto;}
-		
+		#logo {width: 60%}
+		header nav ul li{width: 21.975%;}
 		#images {width: 180px;}
 }
 
