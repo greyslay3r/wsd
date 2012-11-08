@@ -196,7 +196,7 @@ footer {
 /* mobile landscape size to tablet portrait (device&browsers)*/
 	@media only screen and (min-width:480px) and (max-width:767px){
 		#review {-moz-column-count: 2;}
-		#button {font-size: 80%;}
+		#button {font-size: 80%;padding-right: 0;}
 		#join {font-size: 100%;}
 		#logo {width: 60%}
 		header nav ul li{width: 21%}
@@ -205,15 +205,16 @@ footer {
 
 /*  mobile portrait size to mobile landscape size (device & browsers)*/
 	@media only screen and (max-width:479px) {
-		#features {height: 80px;}
+		#features {height: 80px}
 		#side_shot {display:none;clear: both;}
 		#side_shot img {display:none;clear: both;}
-		#splash {padding-left: 0;}
+		#splash {margin: auto;padding-left: 10%; padding-right: 10%;}
 		#review {-moz-column-count: 1;}
 		body {clear:both; width: 90%;}
 		#logo {width: 60%}
 		header nav ul li{width: 21.975%;}
 		#images {width: 180px;}
+		
 }
 
 
