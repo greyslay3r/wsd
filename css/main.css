@@ -1,7 +1,7 @@
 body {
 max-width:800px;
 margin:24px auto;
-font: 100%"helvetica neue",helvetica, sans-serif;
+font: 1em "helvetica neue",helvetica, sans-serif;
 background-image: url("../images/bg_image.jpg");
 }
 
